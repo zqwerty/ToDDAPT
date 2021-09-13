@@ -1,0 +1,105 @@
+{
+  "domains": {
+    "restaurant": {
+      "description": null,
+      "slots": {
+        "rating": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "location": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "amenity": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "cuisine": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "hours": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "price": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "dish": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "restaurant_name": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  },
+  "intents": {
+    "inform": {
+      "description": ""
+    }
+  },
+  "binary_dialogue_act": [
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "rating",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "location",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "amenity",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "cuisine",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "hours",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "price",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "dish",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "restaurant_name",
+      "value": ""
+    }
+  ],
+  "state": {}
+}

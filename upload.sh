@@ -1,0 +1,1 @@
+rsync -avzP ./* ${1}:~/ConvLab2-Pretraining/

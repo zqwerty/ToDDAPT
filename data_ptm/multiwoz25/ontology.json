@@ -1,0 +1,1905 @@
+{
+    "domains": {
+        "taxi": {
+            "description": "taxi information query system",
+            "slots": {
+                "destination": {
+                    "description": "destination of taxi",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "departure": {
+                    "description": "departure location of taxi",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "leaveAt": {
+                    "description": "leaving time of taxi",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "arriveBy": {
+                    "description": "arrival time of taxi",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "taxi_phone": {
+                    "description": "taxi phone number",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "taxi_types": {
+                    "description": "taxi type",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        },
+        "restaurant": {
+            "description": "restaurant information query system",
+            "slots": {
+                "food": {
+                    "description": "food type for the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "name": {
+                    "description": "name of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "pricerange": {
+                    "description": "price budget for the restaurant",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "priced cheaply",
+                        "cheaply priced",
+                        "low cost",
+                        "moderate range",
+                        "very expensive",
+                        "great prices",
+                        "inexpensive",
+                        "not",
+                        "does n't matter",
+                        "cheap or expensive",
+                        "or the moderately priced",
+                        "every price point",
+                        "expensively",
+                        "expensively priced",
+                        "high - class super fancy pricey",
+                        "centre",
+                        "less expensive",
+                        "more moderate",
+                        "budget friendly",
+                        "same area and price range",
+                        "similar price range",
+                        "north",
+                        "mostly expensive and moderately priced",
+                        "same price range",
+                        "do n't care",
+                        "relatively cheap",
+                        "expensive side",
+                        "relatively expensive",
+                        "assorted",
+                        "same pricerange",
+                        "moderate",
+                        "most affordable price range",
+                        "boderate",
+                        "expensive and moderately priced",
+                        "expinsive",
+                        "regardless of price",
+                        "pricey",
+                        "not really",
+                        "expensive but worth every penny",
+                        "moderite",
+                        "moderately prices",
+                        "fairly inexpensive",
+                        "varying price",
+                        "same price",
+                        "expensive range",
+                        "all price ranges",
+                        "moderately",
+                        "moderately expensive",
+                        "not too expensive",
+                        "high end",
+                        "any price point",
+                        "quite low",
+                        "that price range",
+                        "moderately priced",
+                        "adforable",
+                        "reasonably priced",
+                        "budget - friendly",
+                        "expensive",
+                        "mid price",
+                        "no particular",
+                        "cheap to expensive",
+                        "cheap range",
+                        "not cheap",
+                        "on the pricey side",
+                        "cheaper",
+                        "mostly expensive",
+                        "your price range",
+                        "varying price range",
+                        "expensive price",
+                        "on the cheap side",
+                        "or otherwise",
+                        "expensive / upscale",
+                        "modest",
+                        "same area and price range as my hotel",
+                        "moderatre",
+                        "a little expensive but worth it",
+                        "fairly cheap",
+                        "not - so - expensive",
+                        "do not have a preference",
+                        "ranging from cheap to expensive",
+                        "moderate and expensive",
+                        "any",
+                        "moderate and one in the cheap range",
+                        "luxury options",
+                        "all",
+                        "moderately - priced",
+                        "moderate or expensive priced",
+                        "any price range",
+                        "none",
+                        "various",
+                        "east",
+                        "most expensive",
+                        "expensive(no",
+                        "moderate pricing",
+                        "the least expensive",
+                        "they vary",
+                        "moderate priced",
+                        "high - end",
+                        "and",
+                        "cheap priced",
+                        "upscale",
+                        "epensive",
+                        "fine",
+                        "affordable",
+                        "any price",
+                        "expensive or moderate",
+                        "quite expensive",
+                        "priced moderately",
+                        "do not care",
+                        "reasonable",
+                        "cheapish",
+                        "pretty expensive",
+                        "expensive priced",
+                        "does not matter",
+                        "your",
+                        "same area and pricerange",
+                        "expensiove",
+                        "rather expensive",
+                        "this price range",
+                        "low priced",
+                        "cherap",
+                        "cheap",
+                        "moderately price",
+                        "moderatley priced",
+                        "dontcare",
+                        "more expensive",
+                        "not moderate",
+                        "pretty cheap",
+                        "fairly expensive",
+                        "cheapest",
+                        "cheaply - priced",
+                        "not too pricey",
+                        "cheapt",
+                        "moderatly priced",
+                        "not expensive",
+                        "quite inexpensive",
+                        "vietnamese",
+                        "that price",
+                        "moderate price",
+                        "exepensive",
+                        "same area and price range as the hotel",
+                        "expensive price range",
+                        "middle",
+                        "cheaply",
+                        "that range",
+                        "moderatly",
+                        "moderate price range",
+                        "same area and price",
+                        "budget conscious",
+                        "high class",
+                        "cheap price range"
+                    ]
+                },
+                "address": {
+                    "description": "exact location of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "area": {
+                    "description": "area or place of the restaurant",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "in the city",
+                        "city center",
+                        "in town",
+                        "do n't have a preference",
+                        "that area",
+                        "n the centre",
+                        "by the airport",
+                        "northside",
+                        "southend",
+                        "in town at all",
+                        "that area of town",
+                        "does n't matter",
+                        "not",
+                        "thai",
+                        "the area you have chosen",
+                        "the south part of town",
+                        "almost every area of town",
+                        "same place",
+                        "wet part of town",
+                        "centre",
+                        "these areas",
+                        "ely",
+                        "the east",
+                        "chesterton",
+                        "north",
+                        "this area",
+                        "east side of town",
+                        "in cambridge",
+                        "do n't care",
+                        "do nt care",
+                        "near the restaurant",
+                        "around town",
+                        "same part of town",
+                        "within this area",
+                        "any where in the city",
+                        "closely located",
+                        "south side of town",
+                        "all of cambridge",
+                        "south cambridge",
+                        "the north part of town",
+                        "west side",
+                        "throughout the city",
+                        "north area of town",
+                        "same location",
+                        "east side",
+                        "around the college",
+                        "southside",
+                        "centre part of town",
+                        "same areas",
+                        "south part of town",
+                        "west part of town",
+                        "the area",
+                        "the centre area",
+                        "any part of town",
+                        "elsewhere in the city",
+                        "near the hotel",
+                        "central",
+                        "same",
+                        "in the centre",
+                        "south area",
+                        "same area",
+                        "eastside",
+                        "expensive",
+                        "throughout the area",
+                        "any area",
+                        "other parts of town",
+                        "the centre part of town",
+                        "the west part of town",
+                        "anywhere in town",
+                        "anywhere",
+                        "any",
+                        "town of centre",
+                        "central region of town",
+                        "anywhere in the city",
+                        "west cambridge",
+                        "centre area of town",
+                        "same side",
+                        "close to your location",
+                        "north part of town",
+                        "none",
+                        "here in the city",
+                        "cente",
+                        "south",
+                        "downtown",
+                        "east section of town",
+                        "cetre",
+                        "east",
+                        "that",
+                        "town",
+                        "westies",
+                        "center",
+                        "westside",
+                        "centre of town",
+                        "other part of the town",
+                        "centre cambridge",
+                        "cambridge centre",
+                        "same price range and area",
+                        "does",
+                        "around there",
+                        "close to that area",
+                        "centrem",
+                        "the centre",
+                        "close to the attraction",
+                        "centrally located",
+                        "northern",
+                        "east part of town",
+                        "north side",
+                        "all over cambridge",
+                        "that part of town",
+                        "all over town",
+                        "near clare hall",
+                        "north of town",
+                        "the east side of town",
+                        "cambridge",
+                        "centere",
+                        "does not matter",
+                        "same area of town",
+                        "centre and north",
+                        "north or centre",
+                        "city centre",
+                        "eastern",
+                        "central area",
+                        "all of",
+                        "anywhere in cambridge",
+                        "west end of town",
+                        "the west side",
+                        "close to the hotel",
+                        "cheap",
+                        "centre area",
+                        "here",
+                        "the are",
+                        "dontcare",
+                        "city",
+                        "certre",
+                        "nearby",
+                        "restaurants in the city",
+                        "centre-",
+                        "ctre",
+                        "west of town",
+                        "southern",
+                        "mexican",
+                        "centrally",
+                        "centra",
+                        "south of town",
+                        "town centre",
+                        "this town",
+                        "all over the city",
+                        "same side of town",
+                        "west"
+                    ]
+                },
+                "postcode": {
+                    "description": "postcode of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "phone": {
+                    "description": "restaurant phone number",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "people": {
+                    "description": "number of people booking the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "time": {
+                    "description": "time of the restaurant booking",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "day": {
+                    "description": "day of the restaurant booking",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "sunday",
+                        "that day",
+                        "dontcare",
+                        "friday",
+                        "same day",
+                        "tuesday",
+                        "the day we arrive",
+                        "monday",
+                        "wednesday",
+                        "the day i leave",
+                        "thursday",
+                        "same group and day",
+                        "saturday",
+                        "the day we travel"
+                    ]
+                },
+                "choice": {
+                    "description": "number of restaurants meeting requests of user",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        },
+        "attraction": {
+            "description": "an entertainment that is offered to the public",
+            "slots": {
+                "address": {
+                    "description": "details of where the attraction is",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "postcode": {
+                    "description": "postcode of the attraction",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "phone": {
+                    "description": "phone number of the attraction",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "entrance fee": {
+                    "description": "the fee charged for admission to the attraction",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "type": {
+                    "description": "type of the attraction",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "area": {
+                    "description": "area or place of the attraction",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "in town",
+                        "do n't have a preference",
+                        "that area",
+                        "the area you 're looking for",
+                        "norwich",
+                        "not",
+                        "does n't matter",
+                        "the south",
+                        "same place",
+                        "centre",
+                        "central cambridge",
+                        "does n't really matter",
+                        "the east",
+                        "north",
+                        "cb30aq",
+                        "north of the city",
+                        "this area",
+                        "the eastside",
+                        "in cambridge",
+                        "do n't care",
+                        "the centry area",
+                        "near the restaurant",
+                        "same part of town",
+                        "the same road",
+                        "eat",
+                        "near ely",
+                        "in the area",
+                        "not really",
+                        "west side",
+                        "throughout the city",
+                        "this side of town",
+                        "same location",
+                        "east side",
+                        "centre part of town",
+                        "city cenre",
+                        "south end",
+                        "south part of town",
+                        "west part of town",
+                        "east area",
+                        "the area",
+                        "the centre area",
+                        "in that area",
+                        "central",
+                        "cenre",
+                        "north section of cambridge",
+                        "museums",
+                        "south area",
+                        "same area",
+                        "eastside",
+                        "west area",
+                        "western",
+                        "went side of town",
+                        "other parts of town",
+                        "same general area",
+                        "different area",
+                        "do not have a preference",
+                        "any",
+                        "all",
+                        "same side",
+                        "none",
+                        "east of cambridge",
+                        "various",
+                        "south",
+                        "downtown",
+                        "cetre",
+                        "east",
+                        "other areas",
+                        "that",
+                        "wet end",
+                        "center",
+                        "westside",
+                        "centre of town",
+                        "there",
+                        "does",
+                        "the centre",
+                        "centrally located",
+                        "northern",
+                        "east part of town",
+                        "do not care",
+                        "center of town",
+                        "that part of town",
+                        "central district",
+                        "the area you are looking for",
+                        "all over town",
+                        "cetnre of town",
+                        "all of the other areas",
+                        "cambridge",
+                        "centere",
+                        "does not matter",
+                        "clifton way",
+                        "same area of town",
+                        "western part of the town",
+                        "whole of cambridge",
+                        "city centre",
+                        "east cambridge",
+                        "centre of cambridge",
+                        "several different parts of town",
+                        "the west side",
+                        "the area you are requesting",
+                        "close to the hotel",
+                        "central zone",
+                        "your desired location",
+                        "centre area",
+                        "all around the city",
+                        "in that side",
+                        "dontcare",
+                        "close to the restaurant",
+                        "city",
+                        "another area",
+                        "the south near your hotel",
+                        "cambridge leisure park",
+                        "west",
+                        "nearby",
+                        "that side of town",
+                        "southern",
+                        "church area",
+                        "northend",
+                        "all over the city",
+                        "near the hotel"
+                    ]
+                },
+                "name": {
+                    "description": "name of the attraction",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "pricerange": {
+                    "description": "the price range for the attraction, from cheap to expensive",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "3.50 pounds",
+                        "2 pounds",
+                        "not sure of the fee",
+                        "do n't have information",
+                        "unaware of what their entrance fee is",
+                        "cheap",
+                        "neither prices are listed",
+                        "moderately priced",
+                        "we do n't have any information",
+                        "they do n't have the entrance fee posted",
+                        "expensive",
+                        "free",
+                        "entrance fee",
+                        "free admission",
+                        "not listed",
+                        "moderate",
+                        "5 pound entrance fee",
+                        "from free to 2 pounds 50",
+                        "5 pounds",
+                        "no entrance fee",
+                        "do n't see a price listed",
+                        "4 pounds"
+                    ]
+                },
+                "choice": {
+                    "description": "number of attractions matching requests of user",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        },
+        "booking": {
+            "description": "to arrange with a taxi, restaurant, train, etc.",
+            "slots": {
+                "time": {
+                    "description": "time for an order",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "day": {
+                    "description": "day for an order, from monday to sunday",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "we d",
+                        "tonight",
+                        "monday",
+                        "6",
+                        "1",
+                        "that",
+                        "tues",
+                        "same day",
+                        "sunday and monday",
+                        "thursday",
+                        "weds",
+                        "tuesday instead of thursday",
+                        "this evening",
+                        "today",
+                        "sunday",
+                        "at that time",
+                        "2",
+                        "that time frame",
+                        "wednesday",
+                        "saturday night thru monday",
+                        "vmhj6y3i.",
+                        "saturday",
+                        "one",
+                        "sundar",
+                        "friday",
+                        "tuesday through friday",
+                        "tuesday",
+                        "sunday 18/06/2017",
+                        "tuesday 's"
+                    ]
+                },
+                "stay": {
+                    "description": "for how long the user wish to be at a place",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "people": {
+                    "description": "how many person the order is for",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "name": {
+                    "description": "name of the ordered place",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "Ref": {
+                    "description": "reference number of the order",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        },
+        "train": {
+            "description": "query and order a train",
+            "slots": {
+                "destination": {
+                    "description": "destination of the train",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "arriveBy": {
+                    "description": "arrival time of the train",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "departure": {
+                    "description": "departure location of the train",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "duration": {
+                    "description": "the length of time the train trip lasts",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "people": {
+                    "description": "number of people booking for train",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "day": {
+                    "description": "day of the train",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "wenesday",
+                        "frday",
+                        "the day of my hotel booking",
+                        "other days are available",
+                        "saturday-",
+                        "mondays",
+                        "monday",
+                        "tr2519",
+                        "thusday",
+                        "thurday",
+                        "sundays",
+                        "that day",
+                        "tuestday",
+                        "every",
+                        "same day",
+                        "that",
+                        "thursday",
+                        "weds",
+                        "thursdays",
+                        "13:07",
+                        "the day i eat",
+                        "sunday",
+                        "all week",
+                        "fiday",
+                        "tursday",
+                        "wednesday",
+                        "saturday",
+                        "this day",
+                        "the day of my reservation",
+                        "daily",
+                        "between friday and wednesday",
+                        "saturdays",
+                        "everday",
+                        "friday",
+                        "tuesday",
+                        "every day",
+                        "cambridge",
+                        "sat"
+                    ]
+                },
+                "Ref": {
+                    "description": "reference number of the order",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "leaveAt": {
+                    "description": "leaving time for the train",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "price": {
+                    "description": "price for the train ticket",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "choice": {
+                    "description": "number of trains that meets requests of the user",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        },
+        "hotel": {
+            "description": "to query hotel information and place an order",
+            "slots": {
+                "internet": {
+                    "description": "internet option at the hotel",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "no",
+                        "free",
+                        "yes",
+                        "dontcare",
+                        "none"
+                    ]
+                },
+                "area": {
+                    "description": "area or place of the hotel",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "in the city",
+                        "in town",
+                        "do n't have a preference",
+                        "that area",
+                        "nearby the restaurant",
+                        "northside",
+                        "southend",
+                        "all parts of the city",
+                        "west areas of town",
+                        "that area of town",
+                        "does n't matter",
+                        "not",
+                        "you are interested in",
+                        "different part of town",
+                        "centre",
+                        "the east",
+                        "several areas of town",
+                        "north",
+                        "that vicinity",
+                        "east side of town",
+                        "in cambridge",
+                        "do n't care",
+                        "est",
+                        "not to far from the restaurant",
+                        "near the restaurant",
+                        "same part of town",
+                        "close to where you 'll be dining",
+                        "east part of time",
+                        "eat",
+                        "south closer to the museum",
+                        "all of cambridge",
+                        "near the museum",
+                        "south cambridge",
+                        "in the area",
+                        "north par of town",
+                        "all over",
+                        "not really",
+                        "different parts of the city",
+                        "or west ?",
+                        "throughout the city",
+                        "different parts of town",
+                        "east side",
+                        "southside",
+                        "northe part of town",
+                        "south part of town",
+                        "west part of town",
+                        "the area",
+                        "east area",
+                        "nborth",
+                        "across town",
+                        "any part of town",
+                        "north part of the city",
+                        "central",
+                        "throughout cambridge",
+                        "south area",
+                        "same area",
+                        "eastside",
+                        "any part of the city",
+                        "no particular",
+                        "western",
+                        "do n't really care",
+                        "south area of town",
+                        "any area",
+                        "other parts of town",
+                        "north area",
+                        "same general area",
+                        "different area",
+                        "do not have a preference",
+                        "any",
+                        "the",
+                        "near the attractions",
+                        "across cambridge",
+                        "the north",
+                        "north part of town",
+                        "none",
+                        "various",
+                        "south",
+                        "downtown",
+                        "somewhere else",
+                        "centrally - located",
+                        "east",
+                        "the west",
+                        "north of cambridge",
+                        "center",
+                        "westside",
+                        "centre of town",
+                        "el shaddai",
+                        "other parts of the city",
+                        "centre cambridge",
+                        "there",
+                        "the easy",
+                        "the centre",
+                        "centrally located",
+                        "northern",
+                        "east part of town",
+                        "north side",
+                        "all across town",
+                        "that part of town",
+                        "all over town",
+                        "north of town",
+                        "cambridge",
+                        "does not matter",
+                        "same area of town",
+                        "south cambridge area",
+                        "wast",
+                        "eastern",
+                        "all areas",
+                        "anywhere in cambridge",
+                        "that region",
+                        "central location",
+                        "centre area",
+                        "all around the city",
+                        "cheap",
+                        "dontcare",
+                        "least",
+                        "next door",
+                        "north side of town",
+                        "norht",
+                        "a different area",
+                        "another area of town",
+                        "that side of town",
+                        "centr",
+                        "the northern part of town",
+                        "west part",
+                        "southern",
+                        "centrally",
+                        "centra",
+                        "south of town",
+                        "town centre",
+                        "northend",
+                        "all over the city",
+                        "same side of town",
+                        "various parts of the city",
+                        "west"
+                    ]
+                },
+                "stars": {
+                    "description": "star rating of the hotel",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "1-star",
+                        "four starts",
+                        "zero",
+                        "4-stars",
+                        "4-",
+                        "5",
+                        "several",
+                        "not rated",
+                        "0",
+                        "none",
+                        "no star rating",
+                        "lower",
+                        "2-star",
+                        "does not show",
+                        "dontcare",
+                        "3-star",
+                        "1",
+                        "does not have",
+                        "3-",
+                        "four",
+                        "foru",
+                        "5-star",
+                        "3",
+                        "not as fancy",
+                        "drop the star rating",
+                        "yes",
+                        "three",
+                        "unrated",
+                        "2",
+                        "different star ratings",
+                        "four - star",
+                        "4",
+                        "no",
+                        "one",
+                        "0-star",
+                        "0 to 4",
+                        "2-starred",
+                        "ranging from 2 - 4 stars",
+                        "five",
+                        "two",
+                        "2-stars",
+                        "3-stars",
+                        "4-star"
+                    ]
+                },
+                "parking": {
+                    "description": "parking facility at the hotel",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "no",
+                        "free",
+                        "yes",
+                        "dontcare",
+                        "none"
+                    ]
+                },
+                "phone": {
+                    "description": "hotel phone number",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "name": {
+                    "description": "name of the hotel",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "pricerange": {
+                    "description": "price budget of the hotel",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "cheaply priced",
+                        "low cost",
+                        "a little pricey",
+                        "moderate range",
+                        "budget - priced",
+                        "inexpensive",
+                        "economical",
+                        "not",
+                        "does n't matter",
+                        "unfortunately do not have the price",
+                        "on the more expensive side",
+                        "moderate to cheap range",
+                        "expensively priced",
+                        "hotel",
+                        "centre",
+                        "same area and price range",
+                        "slightly more expensive",
+                        "north",
+                        "same price range",
+                        "your chosen",
+                        "do n't care",
+                        "relatively cheap",
+                        "expensive to moderate",
+                        "same pricerange",
+                        "chear",
+                        "cheap to moderate",
+                        "moderate",
+                        "different",
+                        "moderate to cheap",
+                        "very inexpensive",
+                        "different price ranges",
+                        "not really",
+                        "moderately prices",
+                        "mostly in the cheap to moderate price range",
+                        "quite cheap",
+                        "moderately priceed",
+                        "same price",
+                        "same area and price range as my restaurant",
+                        "expensive range",
+                        "moderately",
+                        "more moderately priced",
+                        "lower",
+                        "that price range",
+                        "moderately priced",
+                        "extremely reasonable",
+                        "inexpensively - priced",
+                        "expensive",
+                        "mid price",
+                        "free",
+                        "no particular",
+                        "cheap to expensive",
+                        "lower end",
+                        "cheaper side",
+                        "cheap range",
+                        "cheaper",
+                        "your price range",
+                        "expensive or cheap",
+                        "on the cheap side",
+                        "the cheapest",
+                        "great",
+                        "moderate or cheap",
+                        "other ranges",
+                        "fairly cheap",
+                        "fairly cheap compared to other hotels",
+                        "hotels",
+                        "cheap side",
+                        "any",
+                        "ca n't view that information",
+                        "cheap or moderate",
+                        "all",
+                        "moderately - priced",
+                        "same general price",
+                        "none",
+                        "even cheaper",
+                        "is moderately priced",
+                        "moderately - priced or cheap",
+                        "that",
+                        "epxensive",
+                        "moderate pricing",
+                        "moderately pried",
+                        "moderate priced",
+                        "expensively - priced",
+                        "cheaper than the others",
+                        "moderate price point",
+                        "less costly",
+                        "does",
+                        "cheap priced",
+                        "upscale",
+                        "same part of town and price range as the restaurant",
+                        "very cheap",
+                        "epensive",
+                        "very affordable",
+                        "affordable",
+                        "quite expensive",
+                        "priced moderately",
+                        "all different price ranges",
+                        "do not care",
+                        "moderately to expensively priced",
+                        "pretty expensive",
+                        "moderatly price",
+                        "does not matter",
+                        "cheaply prices",
+                        "higher price range",
+                        "guesthouses",
+                        "range",
+                        "more budget - friendly",
+                        "moderate prices",
+                        "does not say",
+                        "rather expensive",
+                        "your price",
+                        "$ 100",
+                        "cheap",
+                        "moderately price",
+                        "moderatley priced",
+                        "dontcare",
+                        "more expensive",
+                        "affordable pricing",
+                        "espensive",
+                        "much cheaper",
+                        "pretty cheap",
+                        "different price range",
+                        "varying price ranges",
+                        "cheapest",
+                        "cheaply - priced",
+                        "moderatly priced",
+                        "modrate",
+                        "not expensive",
+                        "same area and price range as the restaurant",
+                        "moderate price",
+                        "expensive price range",
+                        "super cheap",
+                        "cheaply",
+                        "moderatly",
+                        "that range",
+                        "moderate price range",
+                        "moderate in price",
+                        "cheap price range",
+                        "moderately pricing",
+                        "economically priced"
+                    ]
+                },
+                "people": {
+                    "description": "number of people for the hotel booking",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "postcode": {
+                    "description": "postcode of the hotel",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "address": {
+                    "description": "exact location of the hotel",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "type": {
+                    "description": "what is the type of the hotel",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "stay": {
+                    "description": "length of stay at the hotel",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "day": {
+                    "description": "day of the hotel booking",
+                    "is_categorical": true,
+                    "possible_values": [
+                        "tuesday/",
+                        "the day of my restaurant visit",
+                        "sunday",
+                        "thursday--",
+                        "dontcare",
+                        "friday",
+                        "wednsday",
+                        "same day",
+                        "same",
+                        "tuesday",
+                        "the day we arrive",
+                        "wednesday",
+                        "monday",
+                        "the day we get there",
+                        "thursday",
+                        "saturday",
+                        "none"
+                    ]
+                },
+                "choice": {
+                    "description": "number of hotels that meets requests of the user",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        },
+        "police": {
+            "description": "find police stations",
+            "slots": {
+                "address": {
+                    "description": "exact location of the police station",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "postcode": {
+                    "description": "postcode of the police station",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "phone": {
+                    "description": "police station phone number",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            }
+        }
+    },
+    "intents": {
+        "inform": {
+            "description": "inform user of value for a certain slot"
+        },
+        "request": {
+            "description": "ask for value of a slot"
+        },
+        "nobook": {
+            "description": "inform user of booking failure"
+        },
+        "reqmore": {
+            "description": "ask user for more instructions"
+        },
+        "book": {
+            "description": "place an order for user"
+        },
+        "bye": {
+            "description": "end a conversation and say goodbye to user"
+        },
+        "thank": {
+            "description": "express gratitude"
+        },
+        "welcome": {
+            "description": "welcome"
+        },
+        "offerbook": {
+            "description": "offer to place an order for user"
+        },
+        "offerbooked": {
+            "description": "inform user that an order is succussful"
+        },
+        "recommend": {
+            "description": "recommend a choice for user request"
+        },
+        "greet": {
+            "description": "express greeting"
+        },
+        "nooffer": {
+            "description": "inform user that no options matches user request"
+        },
+        "select": {
+            "description": "provide several choices for user to choose from"
+        }
+    },
+    "binary_dialogue_act": [
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "area",
+            "value": ""
+        },
+        {
+            "intent": "inform",
+            "domain": "booking",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "booking",
+            "slot": "stay",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "booking",
+            "slot": "day",
+            "value": ""
+        },
+        {
+            "intent": "reqmore",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "bye",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "thank",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "welcome",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "departure",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "day",
+            "value": ""
+        },
+        {
+            "intent": "offerbook",
+            "domain": "train",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "greet",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "pricerange",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "address",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "destination",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "leaveAt",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "arriveBy",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "duration",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "price",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "internet",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "parking",
+            "value": ""
+        },
+        {
+            "intent": "inform",
+            "domain": "attraction",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "area",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "type",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "address",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "food",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "area",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "phone",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "postcode",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "address",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "Ref",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "postcode",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "phone",
+            "value": ""
+        },
+        {
+            "intent": "nobook",
+            "domain": "booking",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "inform",
+            "domain": "train",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "train",
+            "slot": "people",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "booking",
+            "slot": "people",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "stars",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "type",
+            "value": ""
+        },
+        {
+            "intent": "select",
+            "domain": "hotel",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "postcode",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "entrance fee",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "pricerange",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "booking",
+            "slot": "time",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "phone",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "pricerange",
+            "value": ""
+        },
+        {
+            "intent": "inform",
+            "domain": "hotel",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "attraction",
+            "slot": "name",
+            "value": ""
+        },
+        {
+            "intent": "nooffer",
+            "domain": "attraction",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "select",
+            "domain": "train",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "select",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "select",
+            "domain": "attraction",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "inform",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "inform",
+            "domain": "taxi",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "taxi",
+            "slot": "departure",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "taxi",
+            "slot": "destination",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "taxi",
+            "slot": "taxi_types",
+            "value": ""
+        },
+        {
+            "intent": "book",
+            "domain": "booking",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "taxi",
+            "slot": "taxi_phone",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "taxi",
+            "slot": "arriveBy",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "taxi",
+            "slot": "leaveAt",
+            "value": ""
+        },
+        {
+            "intent": "nooffer",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "nooffer",
+            "domain": "train",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "nooffer",
+            "domain": "hotel",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "hotel",
+            "slot": "name",
+            "value": ""
+        },
+        {
+            "intent": "recommend",
+            "domain": "hotel",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "recommend",
+            "domain": "attraction",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "request",
+            "domain": "restaurant",
+            "slot": "name",
+            "value": ""
+        },
+        {
+            "intent": "offerbooked",
+            "domain": "train",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "recommend",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        }
+    ],
+    "state": {
+        "hotel": {
+            "name": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "area": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "east",
+                    "north",
+                    "centre",
+                    "south",
+                    "west"
+                ]
+            },
+            "parking": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "yes",
+                    "no",
+                    "free"
+                ]
+            },
+            "pricerange": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "cheap",
+                    "moderate",
+                    "expensive"
+                ]
+            },
+            "stars": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "4",
+                    "2",
+                    "0",
+                    "3",
+                    "5",
+                    "1"
+                ]
+            },
+            "internet": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "yes",
+                    "no",
+                    "free"
+                ]
+            },
+            "type": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "stay": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "day": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "tuesday",
+                    "wednesday",
+                    "monday",
+                    "saturday",
+                    "friday",
+                    "thursday",
+                    "sunday"
+                ]
+            },
+            "people": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            }
+        },
+        "train": {
+            "leaveAt": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "destination": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "day": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "wednesday",
+                    "monday",
+                    "saturday",
+                    "thursday",
+                    "friday",
+                    "tuesday",
+                    "sunday"
+                ]
+            },
+            "arriveBy": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "departure": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "people": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            }
+        },
+        "restaurant": {
+            "food": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "pricerange": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "expensive",
+                    "cheap",
+                    "moderate"
+                ]
+            },
+            "name": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "area": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "centre",
+                    "south",
+                    "north",
+                    "east",
+                    "west"
+                ]
+            },
+            "time": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "day": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "thursday",
+                    "wednesday",
+                    "friday",
+                    "monday",
+                    "sunday",
+                    "saturday",
+                    "tuesday"
+                ]
+            },
+            "people": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            }
+        },
+        "attraction": {
+            "type": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "name": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "area": {
+                "description": "",
+                "is_categorical": true,
+                "possible_values": [
+                    "centre",
+                    "west",
+                    "north",
+                    "south",
+                    "east"
+                ]
+            }
+        },
+        "taxi": {
+            "leaveAt": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "destination": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "departure": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            },
+            "arriveBy": {
+                "description": "",
+                "is_categorical": false,
+                "possible_values": []
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "all_origin": {
+        "prev_truth": false,
+        "upd_truth": false,
+        "value_truth": false,
+        "label_type": "origin"
+    },
+    "all_fixed": {
+        "prev_truth": false,
+        "upd_truth": false,
+        "value_truth": false,
+        "label_type": "fixed"
+    },
+    "all_upd_truth_origin": {
+        "prev_truth": false,
+        "upd_truth": true,
+        "value_truth": false,
+        "label_type": "origin"
+    },
+    "all_upd_truth_fixed": {
+        "prev_truth": false,
+        "upd_truth": true,
+        "value_truth": false,
+        "label_type": "fixed"
+    },
+    "all_prev_truth_origin": {
+        "prev_truth": true,
+        "upd_truth": false,
+        "value_truth": false,
+        "label_type": "origin"
+    },
+    "all_prev_truth_fixed": {
+        "prev_truth": true,
+        "upd_truth": false,
+        "value_truth": false,
+        "label_type": "fixed"
+    },
+    "all_prev_upd_truth_origin": {
+        "prev_truth": true,
+        "upd_truth": true,
+        "value_truth": false,
+        "label_type": "origin"
+    },
+    "all_prev_upd_truth_fixed": {
+        "prev_truth": true,
+        "upd_truth": true,
+        "value_truth": false,
+        "label_type": "fixed"
+    },
+    "all_value_truth_origin": {
+        "prev_truth": false,
+        "upd_truth": false,
+        "value_truth": true,
+        "label_type": "origin"
+    },
+    "all_value_truth_fixed": {
+        "prev_truth": false,
+        "upd_truth": false,
+        "value_truth": true,
+        "label_type": "fixed"
+    },
+    "all_upd_value_truth_origin": {
+        "prev_truth": false,
+        "upd_truth": true,
+        "value_truth": true,
+        "label_type": "origin"
+    },
+    "all_upd_value_truth_fixed": {
+        "prev_truth": false,
+        "upd_truth": true,
+        "value_truth": true,
+        "label_type": "fixed"
+    },
+    "all_prev_value_truth_origin": {
+        "prev_truth": true,
+        "upd_truth": false,
+        "value_truth": true,
+        "label_type": "origin"
+    },
+    "all_prev_value_truth_fixed": {
+        "prev_truth": true,
+        "upd_truth": false,
+        "value_truth": true,
+        "label_type": "fixed"
+    },
+    "all_prev_upd_value_truth_origin": {
+        "prev_truth": true,
+        "upd_truth": true,
+        "value_truth": true,
+        "label_type": "origin"
+    },
+    "all_prev_value_upd_truth_fixed": {
+        "prev_truth": true,
+        "upd_truth": true,
+        "value_truth": true,
+        "label_type": "fixed"
+    }
+}

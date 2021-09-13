@@ -1,0 +1,1459 @@
+{
+  "domains": {
+    "hotel": {
+      "description": "",
+      "slots": {
+        "": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "acceptscreditcards": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "type": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "pricerange": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "accepts_credit_cards": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "price_range": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "near": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "area": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "name": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "addr": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "address": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "dogsallowed": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "dogs_allowed": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "phone": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "postcode": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "hasinternet": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "has_internet": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "count": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    },
+    "restaurant": {
+      "description": "",
+      "slots": {
+        "": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "pricerange": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "name": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "price_range": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "area": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "addr": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "address": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "phone": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "allowedforkids": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "kids_allowed": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "near": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "goodformeal": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "good_for_meal": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "type": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "food": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "count": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "price": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "postcode": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  },
+  "intents": {
+    "hello": {
+      "description": ""
+    },
+    "inform": {
+      "description": ""
+    },
+    "inform_no_match": {
+      "description": ""
+    },
+    "ack": {
+      "description": ""
+    },
+    "confirm": {
+      "description": ""
+    },
+    "negate": {
+      "description": ""
+    },
+    "affirm": {
+      "description": ""
+    },
+    "request": {
+      "description": ""
+    },
+    "thankyou": {
+      "description": ""
+    },
+    "bye": {
+      "description": ""
+    },
+    "goodbye": {
+      "description": ""
+    },
+    "select": {
+      "description": ""
+    },
+    "reqalts": {
+      "description": ""
+    },
+    "reqmore": {
+      "description": ""
+    },
+    "inform_only_match": {
+      "description": ""
+    },
+    "deny": {
+      "description": ""
+    },
+    "pinform_no_match": {
+      "description": ""
+    },
+    "repeat": {
+      "description": ""
+    }
+  },
+  "binary_dialogue_act": [
+    {
+      "intent": "hello",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "acceptscreditcards",
+      "value": "false"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "type",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "no"
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "ack",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "negate",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "affirm",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "name",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "addr",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "address",
+      "value": ""
+    },
+    {
+      "intent": "thankyou",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "bye",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "goodbye",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogsallowed",
+      "value": "true"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "phone",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "phone",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "dogsallowed",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "none"
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "postcode",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "postcode",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "yes"
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "no"
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "reqalts",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "hasinternet",
+      "value": "true"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "yes"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "acceptscreditcards",
+      "value": "true"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "acceptscreditcards",
+      "value": ""
+    },
+    {
+      "intent": "reqmore",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "reqalts",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "",
+      "value": "dontcare"
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogsallowed",
+      "value": "false"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "count",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "hasinternet",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "yes"
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "no"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "hasinternet",
+      "value": "false"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "no"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "name",
+      "value": ""
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "pricerange",
+      "value": "dontcare"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "near",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "hotel",
+      "slot": "name",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "yes"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "yes"
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogsallowed",
+      "value": "dontcare"
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "yes"
+    },
+    {
+      "intent": "reqalts",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "near",
+      "value": "none"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "phone",
+      "value": "none"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "near",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "deny",
+      "domain": "hotel",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "pinform_no_match",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "pinform_no_match",
+      "domain": "hotel",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "yes"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "no"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "none"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "acceptscreditcards",
+      "value": "dontcare"
+    },
+    {
+      "intent": "inform",
+      "domain": "hotel",
+      "slot": "area",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "area",
+      "value": "dont_care"
+    },
+    {
+      "intent": "deny",
+      "domain": "hotel",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "dogs_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "yes"
+    },
+    {
+      "intent": "reqalts",
+      "domain": "hotel",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "has_internet",
+      "value": "no"
+    },
+    {
+      "intent": "deny",
+      "domain": "hotel",
+      "slot": "type",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "hotel",
+      "slot": "price_range",
+      "value": "dont_care"
+    },
+    {
+      "intent": "select",
+      "domain": "hotel",
+      "slot": "accepts_credit_cards",
+      "value": "dont_care"
+    },
+    {
+      "intent": "repeat",
+      "domain": "hotel",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "hello",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "name",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "addr",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "address",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "phone",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "phone",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "thankyou",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "bye",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "goodbye",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "allowedforkids",
+      "value": "true"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "",
+      "value": "dontcare"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "name",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "ack",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "goodformeal",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "allowedforkids",
+      "value": "true"
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "allowedforkids",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "type",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "allowedforkids",
+      "value": "false"
+    },
+    {
+      "intent": "reqmore",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": ""
+    },
+    {
+      "intent": "reqalts",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "count",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "goodformeal",
+      "value": ""
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "name",
+      "value": ""
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": ""
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "price",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "price",
+      "value": ""
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "inform_no_match",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "postcode",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "postcode",
+      "value": ""
+    },
+    {
+      "intent": "negate",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "dont_care"
+    },
+    {
+      "intent": "affirm",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "pricerange",
+      "value": "dontcare"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": "dont_care"
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "goodformeal",
+      "value": "dontcare"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": "dont_care"
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "good_for_meal",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": "none"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "inform_only_match",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "goodformeal",
+      "value": "dontcare"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "food",
+      "value": "dontcare"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "allowedforkids",
+      "value": "dontcare"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "dont_care"
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "dont_care"
+    },
+    {
+      "intent": "repeat",
+      "domain": "restaurant",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "request",
+      "domain": "restaurant",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "pricerange",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "none"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "no"
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "price_range",
+      "value": ""
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": "dont_care"
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": ""
+    },
+    {
+      "intent": "confirm",
+      "domain": "restaurant",
+      "slot": "kids_allowed",
+      "value": "yes"
+    },
+    {
+      "intent": "select",
+      "domain": "restaurant",
+      "slot": "area",
+      "value": "dont_care"
+    },
+    {
+      "intent": "inform",
+      "domain": "restaurant",
+      "slot": "near",
+      "value": "dont_care"
+    }
+  ],
+  "state": {}
+}

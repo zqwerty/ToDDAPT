@@ -1,0 +1,93 @@
+*.pyc
+__pycache__
+
+.DS_Store
+
+# pycharm
+.idea
+
+# vscode
+.vscode
+
+# data
+convlab2/ptm/eval_tasks/dialoglue/data_utils/dialoglue
+data/multiwoz23/MultiWOZ-coref-main.zip
+data/multiwoz23/MultiWOZ-coref-main/
+data/multiwoz23/data.json
+data_ptm/multidogo/
+data_ptm/multiwoz21/span_missing_cases.md
+data_ptm/multiwoz22/
+data_ptm/schema/aug_0.json
+data_ptm/schema/aug_1.json
+data_ptm/schema/delex_map.json
+data_ptm/schema/map.json
+data_ptm/schema/map_len.json
+data_ptm/slurp/
+data_ptm/smcalflow/
+data_ptm/star/
+data_ptm/treedst/
+data/**/train.json
+data/**/val.json
+data/**/test.json
+data/camrest/CamRest676_v2.json
+data/multiwoz/annotated_user_da_with_span_full.json
+data/schema/dstc8-schema-guided-dialogue-master
+data/schema/data.json
+data/schema/original_data
+data/mit_movie/data.json
+data/mit_movie/original_data
+data/frames/data.json
+data/frames/original_data
+**/processed_data/*
+**/prefix_dialog/*
+**/prefix_dialog_cut59/*
+**/full_dialog/*
+data/mdbt/data
+data/mdbt/models
+data/mdbt/word-vectors
+convlab2/nlg/sclstm/**/resource/*
+convlab2/nlg/sclstm/**/resource_usr/*
+convlab2/nlg/sclstm/**/sclstm.pt
+convlab2/nlg/sclstm/**/sclstm.res
+convlab2/nlg/sclstm/**/sclstm.log
+convlab2/nlg/sclstm/**/sclstm_usr.pt
+convlab2/nlg/sclstm/**/sclstm_usr.res
+convlab2/nlg/sclstm/**/sclstm_usr.log
+convlab2/nlu/jointBERT/**/output/
+convlab2/dst/sumbt/multiwoz/output/
+convlab2/nlg/sclstm/**/generated_sens_sys.json
+convlab2/nlg/template/**/generated_sens_sys.json
+# test script
+*_test.py
+
+# log
+**/log/**
+*.log
+
+# save
+**/save/**
+
+# .bak.py
+*.bak.py
+
+# compile files
+build
+dist
+convlab2.egg-info
+
+# configs
+
+
+.ipynb_checkpoints
+
+## dst files
+convlab2/dst/trade/crosswoz/data/
+convlab2/dst/trade/crosswoz/model/
+convlab2/dst/trade/crosswoz_config/
+convlab2/dst/trade/multiwoz/data/
+convlab2/dst/trade/multiwoz/model/
+convlab2/dst/trade/multiwoz_config/
+deploy/bert_multiwoz_all.zip
+deploy/templates/dialog_eg.html
+test.py
+/convlab2/ptm/model/dialog_mlm/original_data/

@@ -1,0 +1,1367 @@
+{
+    "domains": {},
+    "intents": {
+        "translate": {
+            "description": ""
+        },
+        "transfer": {
+            "description": ""
+        },
+        "timer": {
+            "description": ""
+        },
+        "definition": {
+            "description": ""
+        },
+        "meaning_of_life": {
+            "description": ""
+        },
+        "insurance_change": {
+            "description": ""
+        },
+        "find_phone": {
+            "description": ""
+        },
+        "travel_alert": {
+            "description": ""
+        },
+        "pto_request": {
+            "description": ""
+        },
+        "improve_credit_score": {
+            "description": ""
+        },
+        "fun_fact": {
+            "description": ""
+        },
+        "change_language": {
+            "description": ""
+        },
+        "payday": {
+            "description": ""
+        },
+        "replacement_card_duration": {
+            "description": ""
+        },
+        "time": {
+            "description": ""
+        },
+        "application_status": {
+            "description": ""
+        },
+        "flight_status": {
+            "description": ""
+        },
+        "flip_coin": {
+            "description": ""
+        },
+        "change_user_name": {
+            "description": ""
+        },
+        "where_are_you_from": {
+            "description": ""
+        },
+        "shopping_list_update": {
+            "description": ""
+        },
+        "what_can_i_ask_you": {
+            "description": ""
+        },
+        "maybe": {
+            "description": ""
+        },
+        "oil_change_how": {
+            "description": ""
+        },
+        "restaurant_reservation": {
+            "description": ""
+        },
+        "balance": {
+            "description": ""
+        },
+        "confirm_reservation": {
+            "description": ""
+        },
+        "freeze_account": {
+            "description": ""
+        },
+        "rollover_401k": {
+            "description": ""
+        },
+        "who_made_you": {
+            "description": ""
+        },
+        "distance": {
+            "description": ""
+        },
+        "user_name": {
+            "description": ""
+        },
+        "timezone": {
+            "description": ""
+        },
+        "next_song": {
+            "description": ""
+        },
+        "transactions": {
+            "description": ""
+        },
+        "restaurant_suggestion": {
+            "description": ""
+        },
+        "rewards_balance": {
+            "description": ""
+        },
+        "pay_bill": {
+            "description": ""
+        },
+        "spending_history": {
+            "description": ""
+        },
+        "pto_request_status": {
+            "description": ""
+        },
+        "credit_score": {
+            "description": ""
+        },
+        "new_card": {
+            "description": ""
+        },
+        "lost_luggage": {
+            "description": ""
+        },
+        "repeat": {
+            "description": ""
+        },
+        "mpg": {
+            "description": ""
+        },
+        "oil_change_when": {
+            "description": ""
+        },
+        "yes": {
+            "description": ""
+        },
+        "travel_suggestion": {
+            "description": ""
+        },
+        "insurance": {
+            "description": ""
+        },
+        "todo_list_update": {
+            "description": ""
+        },
+        "reminder": {
+            "description": ""
+        },
+        "change_speed": {
+            "description": ""
+        },
+        "tire_pressure": {
+            "description": ""
+        },
+        "no": {
+            "description": ""
+        },
+        "apr": {
+            "description": ""
+        },
+        "nutrition_info": {
+            "description": ""
+        },
+        "calendar": {
+            "description": ""
+        },
+        "uber": {
+            "description": ""
+        },
+        "calculator": {
+            "description": ""
+        },
+        "date": {
+            "description": ""
+        },
+        "carry_on": {
+            "description": ""
+        },
+        "pto_used": {
+            "description": ""
+        },
+        "schedule_maintenance": {
+            "description": ""
+        },
+        "travel_notification": {
+            "description": ""
+        },
+        "sync_device": {
+            "description": ""
+        },
+        "thank_you": {
+            "description": ""
+        },
+        "roll_dice": {
+            "description": ""
+        },
+        "food_last": {
+            "description": ""
+        },
+        "cook_time": {
+            "description": ""
+        },
+        "reminder_update": {
+            "description": ""
+        },
+        "report_lost_card": {
+            "description": ""
+        },
+        "ingredient_substitution": {
+            "description": ""
+        },
+        "make_call": {
+            "description": ""
+        },
+        "alarm": {
+            "description": ""
+        },
+        "todo_list": {
+            "description": ""
+        },
+        "change_accent": {
+            "description": ""
+        },
+        "w2": {
+            "description": ""
+        },
+        "bill_due": {
+            "description": ""
+        },
+        "calories": {
+            "description": ""
+        },
+        "damaged_card": {
+            "description": ""
+        },
+        "restaurant_reviews": {
+            "description": ""
+        },
+        "routing": {
+            "description": ""
+        },
+        "do_you_have_pets": {
+            "description": ""
+        },
+        "schedule_meeting": {
+            "description": ""
+        },
+        "gas_type": {
+            "description": ""
+        },
+        "plug_type": {
+            "description": ""
+        },
+        "tire_change": {
+            "description": ""
+        },
+        "exchange_rate": {
+            "description": ""
+        },
+        "next_holiday": {
+            "description": ""
+        },
+        "change_volume": {
+            "description": ""
+        },
+        "who_do_you_work_for": {
+            "description": ""
+        },
+        "credit_limit": {
+            "description": ""
+        },
+        "how_busy": {
+            "description": ""
+        },
+        "accept_reservations": {
+            "description": ""
+        },
+        "order_status": {
+            "description": ""
+        },
+        "pin_change": {
+            "description": ""
+        },
+        "goodbye": {
+            "description": ""
+        },
+        "account_blocked": {
+            "description": ""
+        },
+        "what_song": {
+            "description": ""
+        },
+        "international_fees": {
+            "description": ""
+        },
+        "last_maintenance": {
+            "description": ""
+        },
+        "meeting_schedule": {
+            "description": ""
+        },
+        "ingredients_list": {
+            "description": ""
+        },
+        "report_fraud": {
+            "description": ""
+        },
+        "measurement_conversion": {
+            "description": ""
+        },
+        "smart_home": {
+            "description": ""
+        },
+        "book_hotel": {
+            "description": ""
+        },
+        "current_location": {
+            "description": ""
+        },
+        "weather": {
+            "description": ""
+        },
+        "taxes": {
+            "description": ""
+        },
+        "min_payment": {
+            "description": ""
+        },
+        "whisper_mode": {
+            "description": ""
+        },
+        "cancel": {
+            "description": ""
+        },
+        "international_visa": {
+            "description": ""
+        },
+        "vaccines": {
+            "description": ""
+        },
+        "pto_balance": {
+            "description": ""
+        },
+        "directions": {
+            "description": ""
+        },
+        "spelling": {
+            "description": ""
+        },
+        "greeting": {
+            "description": ""
+        },
+        "reset_settings": {
+            "description": ""
+        },
+        "what_is_your_name": {
+            "description": ""
+        },
+        "direct_deposit": {
+            "description": ""
+        },
+        "interest_rate": {
+            "description": ""
+        },
+        "credit_limit_change": {
+            "description": ""
+        },
+        "what_are_your_hobbies": {
+            "description": ""
+        },
+        "book_flight": {
+            "description": ""
+        },
+        "shopping_list": {
+            "description": ""
+        },
+        "text": {
+            "description": ""
+        },
+        "bill_balance": {
+            "description": ""
+        },
+        "share_location": {
+            "description": ""
+        },
+        "redeem_rewards": {
+            "description": ""
+        },
+        "play_music": {
+            "description": ""
+        },
+        "calendar_update": {
+            "description": ""
+        },
+        "are_you_a_bot": {
+            "description": ""
+        },
+        "gas": {
+            "description": ""
+        },
+        "expiration_date": {
+            "description": ""
+        },
+        "update_playlist": {
+            "description": ""
+        },
+        "cancel_reservation": {
+            "description": ""
+        },
+        "tell_joke": {
+            "description": ""
+        },
+        "change_ai_name": {
+            "description": ""
+        },
+        "how_old_are_you": {
+            "description": ""
+        },
+        "car_rental": {
+            "description": ""
+        },
+        "jump_start": {
+            "description": ""
+        },
+        "meal_suggestion": {
+            "description": ""
+        },
+        "recipe": {
+            "description": ""
+        },
+        "income": {
+            "description": ""
+        },
+        "order": {
+            "description": ""
+        },
+        "traffic": {
+            "description": ""
+        },
+        "order_checks": {
+            "description": ""
+        },
+        "card_declined": {
+            "description": ""
+        },
+        "oos": {
+            "description": ""
+        }
+    },
+    "binary_dialogue_act": [
+        {
+            "intent": "translate",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "transfer",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "timer",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "definition",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "meaning_of_life",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "insurance_change",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "find_phone",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "travel_alert",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "pto_request",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "improve_credit_score",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "fun_fact",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "change_language",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "payday",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "replacement_card_duration",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "time",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "application_status",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "flight_status",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "flip_coin",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "change_user_name",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "where_are_you_from",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "shopping_list_update",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "what_can_i_ask_you",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "maybe",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "oil_change_how",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "restaurant_reservation",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "balance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "confirm_reservation",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "freeze_account",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "rollover_401k",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "who_made_you",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "distance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "user_name",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "timezone",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "next_song",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "transactions",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "restaurant_suggestion",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "rewards_balance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "pay_bill",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "spending_history",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "pto_request_status",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "credit_score",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "new_card",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "lost_luggage",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "repeat",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "mpg",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "oil_change_when",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "yes",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "travel_suggestion",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "insurance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "todo_list_update",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "reminder",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "change_speed",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "tire_pressure",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "no",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "apr",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "nutrition_info",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "calendar",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "uber",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "calculator",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "date",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "carry_on",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "pto_used",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "schedule_maintenance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "travel_notification",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "sync_device",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "thank_you",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "roll_dice",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "food_last",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "cook_time",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "reminder_update",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "report_lost_card",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "ingredient_substitution",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "make_call",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "alarm",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "todo_list",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "change_accent",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "w2",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "bill_due",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "calories",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "damaged_card",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "restaurant_reviews",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "routing",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "do_you_have_pets",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "schedule_meeting",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "gas_type",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "plug_type",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "tire_change",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "exchange_rate",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "next_holiday",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "change_volume",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "who_do_you_work_for",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "credit_limit",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "how_busy",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "accept_reservations",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "order_status",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "pin_change",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "goodbye",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "account_blocked",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "what_song",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "international_fees",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "last_maintenance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "meeting_schedule",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "ingredients_list",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "report_fraud",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "measurement_conversion",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "smart_home",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "book_hotel",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "current_location",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "weather",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "taxes",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "min_payment",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "whisper_mode",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "cancel",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "international_visa",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "vaccines",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "pto_balance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "directions",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "spelling",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "greeting",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "reset_settings",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "what_is_your_name",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "direct_deposit",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "interest_rate",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "credit_limit_change",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "what_are_your_hobbies",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "book_flight",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "shopping_list",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "text",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "bill_balance",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "share_location",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "redeem_rewards",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "play_music",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "calendar_update",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "are_you_a_bot",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "gas",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "expiration_date",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "update_playlist",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "cancel_reservation",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "tell_joke",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "change_ai_name",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "how_old_are_you",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "car_rental",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "jump_start",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "meal_suggestion",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "recipe",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "income",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "order",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "traffic",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "order_checks",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "card_declined",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "oos",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        }
+    ],
+    "state": {}
+}

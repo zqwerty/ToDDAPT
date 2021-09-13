@@ -1,0 +1,375 @@
+{
+    "domains": {
+        "movie": {
+            "slots": {
+                "time": {
+                    "description": "performance time of the movie",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "num_tickets": {
+                    "description": "the number of movie tickets",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "movie": {
+                    "description": "name of the movie",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "date": {
+                    "description": "performance date of the movie",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "theatre_name": {
+                    "description": "name of the theatre where the movie is performed",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            },
+            "description": "query movie information and book movie tickets"
+        },
+        "restaurant": {
+            "slots": {
+                "num_people": {
+                    "description": "the number of reservation",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "restaurant_name": {
+                    "description": "name of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "date": {
+                    "description": "date of reservation",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "time": {
+                    "description": "time of reservation",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "meal": {
+                    "description": "meal of reservation",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "location": {
+                    "description": "location of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "price_range": {
+                    "description": "price range of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "category": {
+                    "description": "category of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                },
+                "rating": {
+                    "description": "rating of the restaurant",
+                    "is_categorical": false,
+                    "possible_values": []
+                }
+            },
+            "description": "restaurant search and reservation service"
+        }
+    },
+    "intents": {
+        "INFORM": {
+            "description": "inform the value for a slot"
+        },
+        "REQUEST": {
+            "description": "request the value of a slot."
+        },
+        "CONFIRM": {
+            "description": "confirm the value of a slot before making a transactional service call"
+        },
+        "AFFIRM": {
+            "description": "agree to the system's proposition"
+        },
+        "NOTIFY_SUCCESS": {
+            "description": "inform the user that their request was successful"
+        },
+        "THANK_YOU": {
+            "description": "thank the system"
+        },
+        "GOOD_BYE": {
+            "description": "end the dialogue"
+        },
+        "CANT_UNDERSTAND": {
+            "description": "express not understanding what the system says"
+        },
+        "GREETING": {
+            "description": "express greeting"
+        },
+        "NOTIFY_FAILURE": {
+            "description": "inform the user that their request was unsuccessful"
+        },
+        "NEGATE": {
+            "description": "deny the system's proposal"
+        },
+        "SELECT": {
+            "description": "one option of the system's proposal"
+        },
+        "OFFER": {
+            "description": "offer a certain value for a slot to the user"
+        },
+        "OTHER": {
+            "description": "something not relevant to the current dialogue"
+        },
+        "REQUEST_ALTS": {
+            "description": "ask for other results instead of the ones offered by the system"
+        }
+    },
+    "binary_dialogue_act": [
+        {
+            "intent": "NEGATE",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "rating",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "location",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "meal",
+            "value": ""
+        },
+        {
+            "intent": "CONFIRM",
+            "domain": "restaurant",
+            "slot": "date",
+            "value": ""
+        },
+        {
+            "intent": "AFFIRM",
+            "domain": "movie",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "movie",
+            "slot": "movie",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST_ALTS",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "GREETING",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "NOTIFY_SUCCESS",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "NOTIFY_FAILURE",
+            "domain": "movie",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "GOOD_BYE",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "movie",
+            "slot": "time",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "date",
+            "value": ""
+        },
+        {
+            "intent": "INFORM",
+            "domain": "restaurant",
+            "slot": "rating",
+            "value": ""
+        },
+        {
+            "intent": "INFORM",
+            "domain": "restaurant",
+            "slot": "meal",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "movie",
+            "slot": "num_tickets",
+            "value": ""
+        },
+        {
+            "intent": "NOTIFY_FAILURE",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "INFORM",
+            "domain": "restaurant",
+            "slot": "time",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "movie",
+            "slot": "date",
+            "value": ""
+        },
+        {
+            "intent": "CANT_UNDERSTAND",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "restaurant_name",
+            "value": ""
+        },
+        {
+            "intent": "NEGATE",
+            "domain": "movie",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "num_people",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "category",
+            "value": ""
+        },
+        {
+            "intent": "THANK_YOU",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "NEGATE",
+            "domain": "restaurant",
+            "slot": "time",
+            "value": ""
+        },
+        {
+            "intent": "AFFIRM",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "CONFIRM",
+            "domain": "restaurant",
+            "slot": "num_people",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "price_range",
+            "value": ""
+        },
+        {
+            "intent": "AFFIRM",
+            "domain": "movie",
+            "slot": "time",
+            "value": ""
+        },
+        {
+            "intent": "OTHER",
+            "domain": "",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "CONFIRM",
+            "domain": "restaurant",
+            "slot": "time",
+            "value": ""
+        },
+        {
+            "intent": "NOTIFY_SUCCESS",
+            "domain": "movie",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "CONFIRM",
+            "domain": "restaurant",
+            "slot": "",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "movie",
+            "slot": "theatre_name",
+            "value": ""
+        },
+        {
+            "intent": "REQUEST",
+            "domain": "restaurant",
+            "slot": "time",
+            "value": ""
+        }
+    ],
+    "state": {
+        "movie": {
+            "time": "",
+            "num_tickets": "",
+            "movie": "",
+            "date": "",
+            "theatre_name": ""
+        },
+        "restaurant": {
+            "num_people": "",
+            "restaurant_name": "",
+            "date": "",
+            "time": "",
+            "meal": "",
+            "location": "",
+            "price_range": "",
+            "category": "",
+            "rating": ""
+        }
+    }
+}

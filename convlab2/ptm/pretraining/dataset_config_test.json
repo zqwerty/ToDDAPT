@@ -1,0 +1,8 @@
+{
+  "mlm": ["schema"],
+  "one_side_mlm": ["schema"],
+  "bio": ["schema", "multiwoz25"],
+  "schema_linking": ["schema"],
+  "augdial": ["schema"],
+  "span_mlm": ["schema", "multiwoz25"]
+}

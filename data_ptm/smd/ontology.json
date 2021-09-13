@@ -1,0 +1,19 @@
+{
+    "domains": {
+        "navigate": {
+            "description": "",
+            "slots": {}
+        },
+        "schedule": {
+            "description": "",
+            "slots": {}
+        },
+        "weather": {
+            "description": "",
+            "slots": {}
+        }
+    },
+    "intents": {},
+    "binary_dialogue_act": {},
+    "state": {}
+}

@@ -1,0 +1,8 @@
+{
+    "all_upd_value_truth_fixed": {
+        "prev_truth": false,
+        "upd_truth": true,
+        "value_truth": true,
+        "label_type": "fixed"
+    }
+}

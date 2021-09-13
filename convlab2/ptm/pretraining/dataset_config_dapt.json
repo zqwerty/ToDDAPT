@@ -1,0 +1,4 @@
+{
+  "dapt_train": ["schema", "taskmaster", "metalwoz", "woz", "camrest", "frames", "mdc", "kvret"],
+  "dapt_dev": ["schema", "taskmaster", "metalwoz", "woz", "camrest", "frames", "mdc", "kvret"]
+}

@@ -1,0 +1,9 @@
+data
+runs/
+probe/
+mlm_1.0data_20k_b32ac2_lr1e-4_max256_0108
+mlm_0.5data_5k_b32ac2_lr1e-4_max256_0108
+mlm_0.25data_20k_b32ac2_lr1e-4_max256_0108
+mlm_0.1data_1k_b32ac2_lr1e-4_max256_0108
+mlm_0.05data_5k_b32ac2_lr1e-4_max256_0108
+mlm_0.01data_5k_b32ac2_lr1e-4_max256_0108

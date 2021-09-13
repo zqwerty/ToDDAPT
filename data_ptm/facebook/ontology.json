@@ -1,0 +1,227 @@
+{
+  "domains": {
+    "reminder": {
+      "description": "",
+      "slots": {
+        "reminder/todo": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "datetime": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "reminder/noun": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "reminder/reference": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "reminder/recurring_period": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "reminder/reminder_modifier": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    },
+    "weather": {
+      "description": "",
+      "slots": {
+        "weather/noun": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "location": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "datetime": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "weather/attribute": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "news/type": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "negation": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "weather/temperatureUnit": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    },
+    "alarm": {
+      "description": "",
+      "slots": {
+        "datetime": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "alarm/alarm_modifier": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "negation": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "demonstrative_reference": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "timer/noun": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "timer/attributes": {
+          "description": "",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  },
+  "intents": {
+    "set_reminder": {
+      "description": ""
+    },
+    "find": {
+      "description": ""
+    },
+    "modify_alarm": {
+      "description": ""
+    },
+    "set_alarm": {
+      "description": ""
+    },
+    "cancel_alarm": {
+      "description": ""
+    },
+    "cancel_reminder": {
+      "description": ""
+    },
+    "snooze_alarm": {
+      "description": ""
+    },
+    "show_alarms": {
+      "description": ""
+    },
+    "show_reminders": {
+      "description": ""
+    },
+    "time_left_on_alarm": {
+      "description": ""
+    },
+    "checkSunset": {
+      "description": ""
+    },
+    "checkSunrise": {
+      "description": ""
+    }
+  },
+  "binary_dialogue_act": [
+    {
+      "intent": "set_reminder",
+      "domain": "reminder",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "show_alarms",
+      "domain": "alarm",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "snooze_alarm",
+      "domain": "alarm",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "find",
+      "domain": "weather",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "modify_alarm",
+      "domain": "alarm",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "set_alarm",
+      "domain": "alarm",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "cancel_alarm",
+      "domain": "alarm",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "cancel_reminder",
+      "domain": "reminder",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "show_reminders",
+      "domain": "reminder",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "time_left_on_alarm",
+      "domain": "alarm",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "checkSunset",
+      "domain": "weather",
+      "slot": "",
+      "value": ""
+    },
+    {
+      "intent": "checkSunrise",
+      "domain": "weather",
+      "slot": "",
+      "value": ""
+    }
+  ],
+  "state": {}
+}

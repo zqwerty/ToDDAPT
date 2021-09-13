@@ -1,0 +1,111 @@
+{
+  "domains": {
+    "movie": {
+      "description": "Provide information about the movie that requested by the user",
+      "slots": {
+        "actor": {
+          "description": "Name of an actor starring in the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "year": {
+          "description": "Year in which the movie was released",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "title": {
+          "description": "Name of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "genre": {
+          "description": "Type of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "director": {
+          "description": "Director of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "song": {
+          "description": "Song used in the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "plot": {
+          "description": "Plot in the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "review": {
+          "description": "What do people think about the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "character": {
+          "description": "Character in the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "rating": {
+          "description": "Rate a film's suitability for certain audiences, based on its content",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "ratings_average": {
+          "description": "Average user rating of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "trailer": {
+          "description": "Trailer of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "opinion": {
+          "description": "User's opinion about the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "award": {
+          "description": "Award of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "origin": {
+          "description": "The origin of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "soundtrack": {
+          "description": "Soundtrack of the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "relationship": {
+          "description": "Relationship between two movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "character_name": {
+          "description": "Character in the movie",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "quote": {
+          "description": "Quote in the movie",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  },
+  "intents": {
+    "inform": {
+      "description": "Inform the value for a slot"
+    }
+  },
+  "binary_dialogue_act": [],
+  "state": {}
+}

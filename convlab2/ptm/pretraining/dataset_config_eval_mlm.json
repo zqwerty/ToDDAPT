@@ -1,0 +1,4 @@
+{
+  "dapt_train": ["camrest"],
+  "dapt_dev": ["camrest", "hwu", "banking", "oos", "restaurant8k", "top", "multiwoz21", "m2m", "dstc2"]
+}

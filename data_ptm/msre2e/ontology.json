@@ -1,0 +1,19 @@
+{
+    "domains": {
+        "movie": {
+            "description": "",
+            "slots": {}
+        },
+        "restaurant": {
+            "description": "",
+            "slots": {}
+        },
+        "taxi": {
+            "description": "",
+            "slots": {}
+        }
+    },
+    "intents": {},
+    "binary_dialogue_act": {},
+    "state": {}
+}

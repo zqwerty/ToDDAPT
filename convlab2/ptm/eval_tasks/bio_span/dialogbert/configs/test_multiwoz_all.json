@@ -1,0 +1,18 @@
+{
+  "data_dir": "processed_data21",
+  "dataset": "multiwoz21",
+  "output_dir": "output/dialogbert/multiwoz21/no_tag_weight/all_data/all_slot/9.13",
+  "zipped_model_path": "output/dialogbert/multiwoz21/no_tag_weight/all_data/all_slot/9.13/bert_multiwoz_all_context.zip",
+  "log_dir": "output/dialogbert/multiwoz21/no_tag_weight/all_data/all_slot/9.13/log",
+  "DEVICE": "cuda:0",
+  "basemodel": "dialogbert",
+  "model": {
+    "pretrained_weights": "/home/data/zhuqi/pre-trained-models/dialogbert/mlm/mlm_wwm_120k_0831_bert",
+    "resume_checkpoint": "output/dialogbert/multiwoz21/no_tag_weight/all_data/all_slot/9.13/pytorch_model.bin",
+    "predict_batch_size": 50,
+    "adam_epsilon": 1e-8,
+    "weight_decay": 0.0,
+    "dropout": 0.1,
+    "hidden_units": 1536
+  }
+}
