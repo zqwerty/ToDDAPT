@@ -18,13 +18,40 @@ In `convlab2/ptm/pretraining/prepare_data`, run `preprocess_data.py`.
 
 In `convlab2/ptm/pretraining/run_dapt.sh`, set hyperparameters and run.
 
+Best checkpoint for each DAPT data ratio:
+
+1. dialogbert/dapt/1.0data_0506_lr1e-4_steps40000_bz32ac8_block256_warmup0/checkpoint-39000/
+2. dialogbert/dapt/0.25data_0517_lr5e-5_steps10000_bz32ac8_block256_warmup0/
+3. dialogbert/dapt/0.05data_0518_lr2e-5_steps5000_bz32ac8_block256_warmup0/checkpoint-4000/
+4. dialogbert/dapt/0.01data_0518_lr2e-5_steps1000_bz32ac8_block256_warmup0/
+
 ### TAPT
 
 In `convlab2/ptm/pretraining/run_tapt.sh`, set hyperparameters and run.
 
+Best checkpoint for each TAPT data ratio:
+
+1. dialogbert/tapt/multiwoz_0519_lr5e-5_steps10000_bz32ac8_block256_warmup0/
+2. dialogbert/tapt/hwu_0520_lr5e-5_steps1000_bz32ac8_block256_warmup0/checkpoint-700
+3. dialogbert/tapt/banking_0520_lr5e-5_steps1000_bz32ac8_block256_warmup0
+4. dialogbert/tapt/oos_0520_lr1e-4_steps1000_bz32ac8_block256_warmup0
+5. dialogbert/tapt/restaurant8k_0520_lr2e-5_steps1000_bz32ac8_block256_warmup0/checkpoint-900
+6. dialogbert/tapt/top_0520_lr5e-5_steps2000_bz32ac8_block256_warmup0/checkpoint-1800
+7. dialogbert/tapt/m2m_0520_lr5e-5_steps500_bz32ac8_block256_warmup0/checkpoint-400
+
 ### DAPT+TAPT
 
 In `convlab2/ptm/pretraining/run_dapt_tapt.sh`, set hyperparameters and run.
+
+Best checkpoint for each DAPT+TAPT data ratio:
+
+1. dialogbert/tapt/dapt_hwu_0524_lr5e-5_steps1000_bz32ac8_block256_warmup0/checkpoint-300/
+2. dialogbert/tapt/dapt_banking_0524_lr5e-5_steps1000_bz32ac8_block256_warmup0/checkpoint-600/
+3. dialogbert/tapt/dapt_restaurant8k_0524_lr2e-5_steps1000_bz32ac8_block256_warmup0/checkpoint-300
+4. dialogbert/tapt/dapt_top_0524_lr5e-5_steps2000_bz32ac8_block256_warmup0/checkpoint-1900/
+5. dialogbert/tapt/dapt_multiwoz_0524_lr5e-5_steps10000_bz32ac8_block256_warmup0/checkpoint-4100
+6. dialogbert/tapt/dapt_oos_0524_lr1e-4_steps1000_bz32ac8_block256_warmup0/checkpoint-1000/
+7. dialogbert/tapt/dapt_m2m_0524_lr5e-5_steps500_bz32ac8_block256_warmup0/checkpoint-200/
 
 ### MLM test
 
